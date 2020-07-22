@@ -6,6 +6,11 @@
   font-family: "Comfortaa";
 }
 
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 .navbar_block {
   display: flex;
   flex-direction: row;
@@ -34,5 +39,16 @@
   font-size: 1.4rem;
   margin-left: auto;
   margin-right: auto;
-  max-width: 30vw;
+  width: 30vw;
+}
+
+.skills_block {
+  text-align: center;
+  padding: 5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills_details {
+  padding: 2rem;
 }
