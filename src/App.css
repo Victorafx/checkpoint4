@@ -13,3 +13,12 @@
   background-color: #EAB23C;
   padding: 2rem;
 }
+
+.presentation_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem;
+  background-color: rgba(0, 0, 0, 0.842);
+  color: #fff;
+}
