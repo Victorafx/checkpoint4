@@ -17,9 +17,8 @@ class Projects extends React.Component {
     return (
       <div>
         {this.state.projects.map(project =>
-          <div className="project_block">
-            <p>{project.name}</p>
-            <p>{project.date}</p>
+          <div className="project_block" id="portfolio" >
+            <p>{project.name} - {project.date}</p>
             <div className="img_block">
               <a href={project.link}><img src={project.image} alt="project" /></a>    
             </div>

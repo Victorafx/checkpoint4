@@ -15,8 +15,17 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #EAB23C;
+  background-color: #000000c4;
   padding: 2rem;
+  color: #fff;
+  position: fixed;
+  width: 100vw;
+}
+
+.navbar_block :hover {
+  color: #EF6E0C;
+  transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 .presentation_block {
@@ -24,10 +33,10 @@ h2 {
   flex-direction: column;
   align-items: center;
   padding: 10rem;
-  background-color: #F4D161;
+  background-image: url(https://i.pinimg.com/originals/65/71/41/65714144db5012cbb62e452cb7cb12a4.png);
 }
 
-.profile_block {
+#profile_block {
   background-color: rgba(0, 0, 0, 0.774);
   color: #fff;
   padding: 10rem;
@@ -56,4 +65,16 @@ h2 {
 .project_block {
   display: flex;
   flex-direction: column;
+}
+
+.contact_block {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  background-color: #333333;
+  color: #fff;
+}
+
+.contact_block_2 {
+  float: right;
 }

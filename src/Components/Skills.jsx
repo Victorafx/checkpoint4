@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div>
       <h2>Compétences</h2>
-      <div className="skills_block">
+      <div className="skills_block" id="competences" >
         <div className="skills_details">
           <img src='https://icongr.am/devicon/html5-original.svg?size=70&color=currentColor' alt="icon" />
           <img src='https://icongr.am/devicon/css3-original.svg?size=70&color=currentColor' alt="icon" />
