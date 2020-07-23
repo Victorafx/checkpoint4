@@ -15,12 +15,12 @@ class Projects extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="project_row">
         {this.state.projects.map(project =>
           <div className="project_block" id="portfolio" >
-            <p>{project.name} - {project.date}</p>
+            <p>{project.name} / {project.date}</p>
             <div className="img_block">
-              <a href={project.link}><img src={project.image} alt="project" /></a>    
+              <a href={project.link}><img src="https://gopher.co.uk/wp-content/uploads/2019/05/website-hosting.jpg" alt="project" /></a>    
             </div>
             <p>{project.description}</p>      
           </div>

@@ -6,10 +6,10 @@ const Navbar = () => {
     <div className="navbar_block">
       <Link
         activeClass="active"
-        to="profil"
+        to="presentation"
         spy={true}
         smooth={true}
-        offset={-81}
+        offset={-82}
         duration={500}
       >
         Profil
@@ -26,23 +26,23 @@ const Navbar = () => {
       </Link>
       <Link
         activeClass="active"
-        to="portfolio"
+        to="experiences"
         spy={true}
         smooth={true}
-        offset={-81}
+        offset={-80}
         duration={500}
       >
-        Portfolio
+        Expériences
       </Link>
       <Link
         activeClass="active"
-        to="C.V"
+        to="portfolio"
         spy={true}
         smooth={true}
-        offset={-81}
+        offset={0}
         duration={500}
       >
-        C.V
+        Portfolio
       </Link>
       <Link
         activeClass="active"

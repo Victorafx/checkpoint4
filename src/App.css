@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
   font-family: "Comfortaa";
+  list-style: none;
 }
 
 h2 {
@@ -15,7 +16,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #000000c4;
+  background-color: #000000a9;
   padding: 2rem;
   color: #fff;
   position: fixed;
@@ -24,7 +25,7 @@ h2 {
 
 .navbar_block :hover {
   color: #EF6E0C;
-  transition-duration: 0.5s;
+  transition-duration: 0.7s;
   cursor: pointer;
 }
 
@@ -42,20 +43,33 @@ h2 {
   padding: 10rem;
 }
 
+.profile_block {
+  padding: 3rem;
+  background-color: #3E3C39;
+  color: #fff;
+}
+
+.profile_content {
+  padding-top: 2rem;
+}
+
 .profile_content p{
   text-align: justify;
   padding: 1rem;
   font-size: 1.4rem;
   margin-left: auto;
   margin-right: auto;
-  width: 30vw;
+  width: 40vw;
+  background-color: #2c2b28;
+  box-shadow: 2px 2px 2px 2px black
 }
 
 .skills_block {
   text-align: center;
-  padding: 5rem;
+  padding-top: 2rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .skills_details {
@@ -65,16 +79,48 @@ h2 {
 .project_block {
   display: flex;
   flex-direction: column;
+  width: 20vw;
+}
+
+.project_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 3rem;
 }
 
 .contact_block {
   display: flex;
-  flex-direction: column;
-  padding: 5rem;
-  background-color: #333333;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-color: #e6e4e4;
   color: #fff;
 }
 
-.contact_block_2 {
-  float: right;
+.contact_mail {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #e6e4e4;
+  padding: 1rem;
+  line-height: 3rem;
+  font-size: 20px;
+  color: #4a4a4a;
+}
+
+.experiences_block {
+  text-align: center;
+}
+
+ul {
+  padding-top: 2rem;
+  line-height: 1.7;
+}
+
+strong {
+  font-weight: 700;
+  font-family: "Montserrat";
 }
