@@ -9,7 +9,6 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import Experiences from './Components/Experiences';
 
-
 class App extends Component {
   render() {
     return (
